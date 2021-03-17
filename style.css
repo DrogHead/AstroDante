@@ -1,5 +1,16 @@
-body {
-   background: url(dante.jpg);
-   background-repeat: no-repeat;
-   background-position: center;
-}
+.sfondo{
+        min-height: 100%;
+		min-width: 1024px;
+		width: 100%;
+		height: auto;
+		position: fixed;
+		top: 0;
+		left: 0;
+		}
+		@media screen and (max-width: 1024px){
+			img.bg {
+				left: 50%;
+				margin-left: -512px; }
+		}
+.h1{position:relative;
+	  color: red;
