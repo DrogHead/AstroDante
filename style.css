@@ -1,0 +1,73 @@
+@font-face {
+    font-family: mainFont;
+    src: url('font/Signika-Regular.ttf');
+}
+@font-face {
+    font-family: boldFont;
+    src: url('font/Signika-SemiBold.ttf');
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rowflexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#tit {
+    font-family: boldFont;
+    text-decoration: underline;
+    font-size: 36pt;
+    text-align: center;
+}
+
+#subtit {
+    font-family: boldFont;
+    text-decoration: underline;
+    font-size: 28pt;
+    text-align: center;
+}
+
+
+.info {
+    font-family: mainFont;
+    text-align: justify;
+    text-justify: auto;
+    font-size: 16pt;
+
+    width: 65%;
+}
+
+.cit {
+    font-style: italic;
+    text-align: center;
+}
+
+.ref {
+    text-align: right;
+    font-size: 10pt;
+    padding-right: 15%;
+}
+
+#connect {
+    font-family: mainFont;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+video {
+    width: 80%;
+}
+
+canvas {
+    margin: 0 50px;
+}
+
